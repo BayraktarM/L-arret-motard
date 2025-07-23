@@ -1,42 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
-     <header>
-       <a href="index.html"><img src="Frame 1.png"></a>
+    <header>
+        <a href="index.html"><img id="logo" src="Frame 1.png"></a>
+        <!-- navigation  -->
         <nav>
-            <ul>
-               <a href="index2.html"><li><input class="bouton" type="button" value="Gamme Road"/></li></a>
-                <a href="index3.html"><li><input class="bouton" type="button" value="gamme Sport"></li></a>
-                <a href="index4.html"><li><input class="bouton" type="button" value="Gamme Tout-Terrain"></li></a>
-              <a href="index5.html"><li><input class="bouton" type="button" value="équipement"></li></a>
-            </ul>
+            
+            <a href="index2.html">
+                <p><input class="bouton" type="button" value="Gamme Road" /></p>
+            </a>
+            <a href="index3.html">
+                <p><input class="bouton" type="button" value="gamme Sport"></p>
+            </a>
+            <a href="index4.html">
+                <p><input class="bouton" type="button" value="Gamme Tout-Terrain"></p>
+            </a>
+            <a href="index5.html">
+                <p><input class="bouton" type="button" value="équipement"></p>
+            </a>
+           
         </nav>
     </header>
-     <img src="" alt="">
+<!-- histoire catégorie  -->
     <h1>Les Motos Trails:Sans limites</h1>
-    <p>Les motos tout-terrain sont conçues pour affronter les terrains les plus difficiles, que ce soit la boue, les rochers, le sable ou les sentiers forestiers. Elles se distinguent par leur robustesse, leur légèreté et leur suspension renforcée, qui permettent au pilote de vivre des sensations fortes en pleine nature. Que ce soit pour la randonnée, la compétition ou simplement le plaisir, la moto tout-terrain offre une liberté incomparable et un contact direct avec l’environnement. C’est un vrai plaisir pour les amateurs d’aventure et de défis en plein air !</p> 
-<h2>La renommé de cette catégorie es faites principalement par les modèles de cette même catégorie:</h2>
-<a href="https://www.bmw-motorrad.fr/fr/modeles/adventure/r1300gs.html"><div>
-    <img src="https://i.cdn.newsbytesapp.com/images/l51420230428191242.jpeg" alt="">
-    <h3>La BMW GS</h3>
-    <p>Trail haut de gamme emblématique, la GS allie puissance, confort et polyvalence. Son moteur boxer 1254 cm³ avec technologie ShiftCam offre un couple généreux et une grande souplesse. Parfaite pour les longs voyages, elle embarque une électronique de pointe et reste agile malgré son gabarit. C’est la référence des motos d’aventure.</p>
- </div></a>
-<a href="https://www.ktm.com/fr-fr/models/travel/2025-ktm-890-adventurer.html"><div>
-    <h3>La KTM 890 Adventure R</h3>
-    <p>Plus orientée tout-terrain. Agile, légère et très performante en off-road, tout en restant confortable sur route. Son bicylindre dynamique et ses suspensions haut de gamme en font une vraie machine à aventures.</p>
-<img src="https://cdn.motor1.com/images/mgl/zPkjW/s1/2021-ktm-890-adventure.jpg" alt="">
-</div></a>
-<a href="https://moto.honda.fr/motorcycles/range/adventure/crf1100l-africa-twin/specifications-and-price.html#model=crf1100l_at_stnd_2025&bike=crf1100l_at&colour=nh-a86m_matte_ballistic_black_metallic"><div>
-    <img src="https://moto.honda.fr/content/dam/central/motorcycles/adventure/africa-twin-adventure-sports-2024/overview/xl-tile/honda-africa-twin-adventure-sports-xl-tile-1280x1280-mobile.jpg/_jcr_content/renditions/m_r.jpg" alt="">
-    <h3> Honda Africa Twin CRF1100L</h3>
-    <p>Une légende du trail, modernisée.
-Elle combine fiabilité à toute épreuve, moteur agréable (1084 cm³), bonne capacité off-road et confort au long cours. Son design est baroudeur, et elle existe en version DCT (boîte automatique à double embrayage), unique dans le segment.</p>
- </div></a>
- <footer><img src="Frame 1.png" alt=""></footer>
+    <p class="p" class="space-mono-regular">Les motos tout-terrain sont conçues pour affronter les terrains les plus
+        difficiles, que ce soit la boue, les rochers, le sable ou les sentiers forestiers. Elles se distinguent par leur
+        robustesse, leur légèreté et leur suspension renforcée, qui permettent au pilote de vivre des sensations fortes
+        en pleine nature. Que ce soit pour la randonnée, la compétition ou simplement le plaisir, la moto tout-terrain
+        offre une liberté incomparable et un contact direct avec l’environnement. C’est un vrai plaisir pour les
+        amateurs d’aventure et de défis en plein air !</p>
+    <h2>La renommé de cette catégorie es faites principalement par les modèles de cette même catégorie:</h2>
+    <!-- BMW GS  -->
+    <div class="carte">
+        <a href="https://www.bmw-motorrad.fr/fr/modeles/adventure/r1300gs.html"><img id="img2"
+                src="https://i.cdn.newsbytesapp.com/images/l51420230428191242.jpeg" alt=""></a>
+        <section>
+            <h3>La BMW GS</h3>
+            <p class="p" id="p4">Trail haut de gamme emblématique, la GS allie puissance, confort et polyvalence. Son
+                moteur boxer 1254 cm³ avec technologie ShiftCam offre un couple généreux et une grande souplesse.
+                Parfaite pour les longs voyages, elle embarque une électronique de pointe et reste agile malgré son
+                gabarit. C’est la référence des motos d’aventure.</p>
+        </section>
+    </div>
+    <!-- KTM 890 AR  -->
+        <div class="carte">
+            <section>
+                <h3>La KTM 890 Adventure R</h3>
+                <p class="p" id="p4">Plus orientée tout-terrain. Agile, légère et très performante en off-road, tout en
+                    restant confortable sur route. Son bicylindre dynamique et ses suspensions haut de gamme en font une
+                    vraie machine à aventures.</p>
+            </section>
+          <a href="https://www.ktm.com/fr-fr/models/travel/2025-ktm-890-adventurer.html">  <img id="img4" src="https://cdn.motor1.com/images/mgl/zPkjW/s1/2021-ktm-890-adventure.jpg" alt=""></a>
+        </div>
+    <!-- HAT CRF 1100L  -->
+    
+        <div class="carte">
+         <a href="https://moto.honda.fr/motorcycles/range/adventure/crf1100l-africa-twin/specifications-and-price.html#model=crf1100l_at_stnd_2025&bike=crf1100l_at&colour=nh-a86m_matte_ballistic_black_metallic">   <img src="https://moto.honda.fr/content/dam/central/motorcycles/adventure/africa-twin-adventure-sports-2024/overview/xl-tile/honda-africa-twin-adventure-sports-xl-tile-1280x1280-mobile.jpg/_jcr_content/renditions/m_r.jpg"
+                alt=""> </a>
+            <section>
+                <h3> Honda Africa Twin CRF1100L</h3>
+                <p class="p">Une légende du trail, modernisée.
+                    Elle combine fiabilité à toute épreuve, moteur agréable (1084 cm³), bonne capacité off-road et
+                    confort au long cours. Son design est baroudeur, et elle existe en version DCT (boîte automatique à
+                    double embrayage), unique dans le segment.</p>
+            </section>
+        </div>
+   <!-- footer  -->
+    <footer><img src="Frame 1.png" alt=""></footer>
 </body>
+
 </html>
